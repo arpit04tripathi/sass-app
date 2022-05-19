@@ -1,0 +1,30 @@
+{
+  "name": "sass-app",
+  "version": "1.0.0",
+  "description": "testing sass app",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass scss:assets/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpit04tripathi/sass-app.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "arpit tripathi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arpit04tripathi/sass-app/issues"
+  },
+  "homepage": "https://github.com/arpit04tripathi/sass-app#readme",
+  "devDependencies": {
+    "sass": "^1.51.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.8.2"
+  }
+}
